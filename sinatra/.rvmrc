@@ -1,0 +1,5 @@
+rvm use 1.9.2
+
+export DATABASE_URL=postgres://admin@localhost/changeme
+
+if [[ -s $PWD/.rvmrc.local ]] ; then source $PWD/.rvmrc.local; fi
