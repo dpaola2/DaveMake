@@ -8,5 +8,8 @@ serve:
 
 run: install serve
 
+migrate: install
+	sequel -m migrations ${DATABASE_URL}
+
 shell:
 	bundle exec irb
