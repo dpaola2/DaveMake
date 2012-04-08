@@ -1,6 +1,14 @@
+dmake will generate files in the current directory.
+
 Usage:
 
-    $ mkdir new-sinatra-app
-    $ cd new-sinatra-app
-    $ dmake sinatra
+	$ dmake <target>
+	
+Targets:
+
+* sinatra
+* flask
+
+
+
     
